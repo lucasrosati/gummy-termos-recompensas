@@ -4,7 +4,7 @@ import gummyLogo from "@/assets/gummy-logo.png";
 const CampaignHero = () => {
   return (
     <section className="relative pt-8 pb-12 px-6 gummy-hero-gradient">
-      <img src={gummyLogo} alt="Gummy Original" className="h-12 mb-6" />
+      <img src={gummyLogo} alt="Gummy Original" className="h-16 mb-6" />
       <div className="max-w-3xl mx-auto space-y-6">
         <div className="flex items-center gap-3 flex-wrap">
           <Badge variant="campaign">Campanha Oficial</Badge>
