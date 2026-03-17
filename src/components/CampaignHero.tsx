@@ -1,9 +1,11 @@
 import { Badge } from "@/components/ui/badge";
+import gummyLogo from "@/assets/gummy-logo.png";
 
 const CampaignHero = () => {
   return (
-    <section className="relative pt-16 pb-12 px-6 gummy-hero-gradient">
+    <section className="relative pt-8 pb-12 px-6 gummy-hero-gradient">
       <div className="max-w-3xl mx-auto space-y-6">
+        <img src={gummyLogo} alt="Gummy Original" className="h-12 mb-4" />
         <div className="flex items-center gap-3 flex-wrap">
           <Badge variant="campaign">Campanha Oficial</Badge>
           <Badge variant="active">● Ativa</Badge>
